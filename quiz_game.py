@@ -1,6 +1,5 @@
-text = "Ngan is A STUDENT"
+text = "Olivia is A STUDENT"
 print(text.lower())
-
 
 
 print("Welcome to my quiz game!")
