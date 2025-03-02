@@ -1,5 +1,5 @@
-- Project name: Rock-Paper-Scissors game
-- Discription: In this project we will generate a random number set (0, 1, 2) to represent (rock, paper, scissors) for the game. 
+# Project name: Rock-Paper-Scissors game
+# Discription: In this project we will generate a random number set (0, 1, 2) to represent (rock, paper, scissors) for the game. 
              Create a while loop that simulates a game where the user competes against the computer. The user wins if their input matches one of the predefined winning options; otherwise, the computer wins.
 
                         
