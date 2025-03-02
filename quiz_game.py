@@ -1,5 +1,5 @@
-- Project name: Quiz Game 
-- Description: Answer 10 simple quiz questions about the computer. 
+# Project name: Quiz Game 
+# Description: Create five different IF statements where the user answers questions. They will earn 1 point for each correct answer, and if they answer incorrectly, they can try again.  
 
 print("Welcome to my quiz game!")
 
