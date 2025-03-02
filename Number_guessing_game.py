@@ -1,4 +1,8 @@
-import random              # This means importing a random module. 
+# Project name: Number guessing game
+# Description: The user inputs a number to generate a random number for the guessing game. Next, they must guess the random number to win; otherwise, they can keep trying. 
+
+
+import random              # Imported a random module. 
 
 top_of_range = input("Type a number: ")
 
