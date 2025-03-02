@@ -1,11 +1,9 @@
-text = "Olivia is A STUDENT"
-print(text.lower())
-
+- Project name: Quiz Game 
+- Description: Answer 10 simple quiz questions about the computer. 
 
 print("Welcome to my quiz game!")
 
-#Then create a variable for playing
-playing = input("Do you want to play? ")
+playing = input("Do you want to play? ")    #Then create a variable for playing
 
 if playing.lower() != "yes":       #If statement doesn't equal to yes - then quit
     quit()                  # != means not equal to. 
