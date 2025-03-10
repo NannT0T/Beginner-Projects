@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 # Project name: Quiz Game 
 # Description: Create five different IF statements where the user answers questions. They will earn 1 point for each correct answer, and if they answer incorrectly, they can try again.  
+=======
+text = "Ngan is A STUDENT"
+print(text.lower())
+
+>>>>>>> 477a41c (First commit)
+
 
 print("Welcome to my quiz game!")
 
@@ -44,7 +51,7 @@ else:
     print('Try again!!!')
 
 print("You got " + str(Score) + " questions correct!")
-print("You got " + str((Score / 4) * 100) + "%")
+print("You got " + str((Score / 4) * 100) + "%.")
 
 
 
