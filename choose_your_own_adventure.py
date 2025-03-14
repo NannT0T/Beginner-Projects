@@ -36,5 +36,5 @@ elif answer == "right":
 else: 
     print('Not a valid option. You lose.')
 
-print ('Thank {ngan}, for participating to the game.'.format(ngan=name))
-
+print ('Thank {name}, for participating to the game.'.format(name=name))
+print('See you next time')
