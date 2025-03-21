@@ -1,10 +1,12 @@
-import random 
+#Name: Slot Machine
+#Discription: Create a slot game machine for user to deposit money and bet to win each line. The number will be generate random in the system. At the end of each game, the user will know how much they earn. 
 
+
+import random 
 
 MAX_LINES = 3
 MAX_BET = 100
 MIN_BET = 1
-
 ROWS = 3
 COLS = 3
 
