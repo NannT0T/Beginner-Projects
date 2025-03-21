@@ -1,5 +1,6 @@
 #Name: Madlibs Generator
-#Discription: Read a text file <story.txt> to replace the <words> in a paragraph. We can change the <words> in the terminal without changing anything in the original paragraph.  
+#Discription: Read a text file <story.txt> into python script and replace <word> in a paragraph with another word that fits in the sentence.
+                By using this way, we can change the <word> in the paragraph without discrupting the original one.  
 
 with open(r"C:\Users\ngan1\OneDrive\Documents\Python\Python Projects\Mini_Projects\story-t2.txt", "r") as f:
     story = f.read()
