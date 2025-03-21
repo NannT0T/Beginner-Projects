@@ -1,5 +1,5 @@
 #Name: Choose Your Own Adventure
-#Project: Create an advanture game for user to play. In the game, user can choose left or right to continute playing the game, and overcome the challenges at the end of each road. 
+#Discription: Create an advanture game for user to play. In the game, user can choose left or right to continute playing the game, and overcome the challenges at the end of each road. 
 
 
 name = input("Type your name: ").lower() 
