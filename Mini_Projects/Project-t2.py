@@ -1,3 +1,6 @@
+#Name:
+#Discription: Read a text file <story.txt> to replace the <words> in a paragraph. We can change the <words> in the terminal without changing anything in the original paragraph.  
+
 with open(r"C:\Users\ngan1\OneDrive\Documents\Python\Python Projects\Mini_Projects\story-t2.txt", "r") as f:
     story = f.read()
 
