@@ -1,4 +1,8 @@
-name = input("Type your name: ").lower()
+#Name: Choose Your Own Adventure
+#Discription: Create an advanture game for user to play. In the game, user can choose left or right to continute playing the game, and overcome the challenges at the end of each road. 
+
+
+name = input("Type your name: ").lower() 
 print("Welcome", name, "to this adventure!")
 
 answer = input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go? ").lower()

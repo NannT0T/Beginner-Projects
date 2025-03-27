@@ -1,3 +1,6 @@
+#Name: PIG
+#Discription: Need 2 - 4 players to play the game. They first player will stop rolling once they roll #1. Whoever has a higher score will win the game.
+
 import random
 
 def roll():

@@ -1,3 +1,6 @@
+#Name: Timed Math Challenge
+#Discription: Caculate 10 lines of math with the shortest time and win a prize at the end of the game. 
+
 import random
 import time
 

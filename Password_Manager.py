@@ -1,3 +1,6 @@
+#Name: Password Manager
+#Discription: User input their account name and password in the system. Create a loop to store information and allow user to access their information. 
+
 
 import os
 from cryptography.fernet import Fernet
