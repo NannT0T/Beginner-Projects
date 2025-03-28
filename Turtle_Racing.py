@@ -1,3 +1,6 @@
+#Name: Turtle Racing Game
+#Discription: User input the number of turles for the game. The first turtle reaches the line first will be a winner. 
+
 import turtle
 import time
 import random
