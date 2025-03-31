@@ -1,3 +1,6 @@
+#Name: Wpm Typing Test
+#Discription: Challenge your typing speed with an example sentence. 
+
 import curses
 from curses import wrapper
 import time
