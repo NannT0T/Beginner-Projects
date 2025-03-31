@@ -1,3 +1,7 @@
+#Name: Password Generator
+#Discription: Custormize a password with special, digits, and letter
+
+
 import random
 import string
 
