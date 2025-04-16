@@ -1,4 +1,5 @@
-
+#Name: NBA Stats & Current Scores
+#Discription: calculate average scores per game of each team
 
 from requests import get
 from pprint import PrettyPrinter
@@ -16,9 +17,33 @@ def get_links():
 
 def get_scoreboard():
     scoreboard = get_links['currentScoreboard']
-    data = get(BASE_URL + scoreboard).json()
+    games = get(BASE_URL + scoreboard).json()['games']
     
-    printer.pprint(data)
+    for game in games: 
+        home_team = game['hTeam']
+        away_team = game['vTeam']
+        clock = game['clock']
+        period = game['period']
+        
+        print("----------------------------------")
+        print(f"{home_team['triCode']} vs {away_team['triCode']}")
+        print(f"{home_team['score']} - {away_team['score']}")
     
-get_scoreboard()
+def get_stats():
+    stats = get_links()['leagueTeamStatsLeaders']
+    teams = get(BASE_URL + stats).json()['league']['standard']['regularSeason']['team']
+    teams = list(filter(lambda x: x['name'] != "Team", teams))
+    teams.sort(key=lambda x: int(x['ppg']['rank']))
+    
+    for i, team in enumerate(teams):
+        name = team['name']
+        nickname = team['nickname']
+        ppg = team['ppg']['avg']
+        print(f"{i+1}. {name} - {nickname} - {ppg}")   
+        
+         
+get_stats()
+
+
+
 
