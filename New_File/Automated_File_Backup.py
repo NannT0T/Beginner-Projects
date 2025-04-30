@@ -8,10 +8,9 @@ import schedule
 import time
 import threading
 
-source_dir = "C:/Users/ngan1/OneDrive/Documents/Python/Python Projects/New_File"
-destination_dir = "C:/Users/ngan1/OneDrive/Documents/Python/Python Projects/New_File/Backup_file"
+source_dir = "C:\Users\ngan1\OneDrive\Documents\Python\Python Projects\New_File"
+destination_dir = "C:\Users\ngan1\OneDrive\Documents\Python\Python Projects\Backup_File"
 
-# Control flag
 paused = False
 running = True
 
@@ -59,7 +58,7 @@ def input_listener():
 # Run in parallel: one for scheduler, one for user input
 threading.Thread(target=scheduler_loop, daemon=True).start()
 input_listener()
-
+quit
     
 
     
