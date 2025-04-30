@@ -1,5 +1,5 @@
-#Name:
-#Discription: 
+#Name: Path Finder
+#Discription: Find the shortest path from point O to point X
 
 import curses
 from curses import wrapper
