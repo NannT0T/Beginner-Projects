@@ -8,8 +8,8 @@ import schedule
 import time
 import threading
 
-source_dir = "C:\Users\ngan1\OneDrive\Documents\Python\Python Projects\New_File"
-destination_dir = "C:\Users\ngan1\OneDrive\Documents\Python\Python Projects\Backup_File"
+source_dir = "C:/Users/ngan1/OneDrive/Documents/Python/Python Projects/New_File"
+destination_dir = "C:/Users/ngan1/OneDrive/Documents/Python/Python Projects/Backup_File"
 
 paused = False
 running = True
@@ -32,7 +32,7 @@ def backup_daily():
         print("⏸️ Backup is currently paused. Skipping...")
 
 # Schedule the task
-schedule.every().day.at("19:15").do(backup_daily)
+schedule.every().day.at("19:41").do(backup_daily)
 
 def scheduler_loop():
     print("🔁 Backup scheduler running. Press 'p' to pause, 'r' to resume, 'q' to quit.")
