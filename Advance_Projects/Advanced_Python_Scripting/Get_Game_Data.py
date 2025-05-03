@@ -1,5 +1,5 @@
-#Name
-#Discription: 
+#Name: Get Game Data
+#Discription: Create a pipe to connect all the files together in a folder.
 
 
 import os 
